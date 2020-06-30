@@ -9,30 +9,113 @@
     <style>
         body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
     }
     .name_highlight{
         color: coral;
     }
     .half_width{
-        width: 50%;
+        width: 40%;
         float: left;
+        margin-left: 5%;
+        padding: 2%;
     }
     .half_width img{
         width: 80%;
     }
-    </style>
+    .top_banner{
+        background-image: url(top-banner.png);
+        background-repeat: no-repeat;
+    }
+    section{
+        height: 500px;
+        bottom: 150px;
+    }
+    .link_button{
+        text-decoration: none;
+        background-color: tomato;
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+    }
+    .last_width{
+        width: 40%;
+        margin-left: 5%;
+        padding: 2%;
+    }
+    .dream{
+            background-image: url(dream-bg.png);
+            background-repeat: no-repeat;
+            background-position: right;
+    }
+    .new_color{
+        color: tomato;
+    }
+    .single-experience{
+        box-shadow: 10px 10px 40px gray;
+        border-radius: 10px;
+        Height: 40%
+    }
+    .experience_area{
+        background-image: url(exp-bg.png);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    #full{
+        border-left: 7px solid indigo;
+    }
+    #bull{
+        border-left: 7px solid green;
+    }
+    #center_text{
+        color: khaki;
+        text-align: center;
+        font-size: small;
+    }
+        </style>
 </head>
 <body>
-    <section>
+    <section class="top_banner">
         <div class="half_width">
             <h1>Welcome!</h1> 
             <h1><span class="name_highlight">This is</span> Nahid</h1>
             <h3>world class web developer</h3>
             <p>ami web banate pari karon eta amar dorkar ache ami.tumar jonno ki korte pari.in the line of the to my head.tumi ki amake help korbe.na korle ami tumake phone mari.</p>
+            <a class="link_button" target="_blank" href="https://www.facebook.com/AbdulHakimNahid24">Hire me</a>
         </div>
         <div class="half_width">
             <img src="image 11.png" alt="picture">
         </div>
     </section>
+    <br>
+    <section class="dream">
+        <div class="half_width">
+            <img src="jhankar2.png">
+        </div>
+        <div class="half_width">
+            <h2>Dream big</h2>
+            <h3>become big developer</h3>
+            <p >I always wanna try to my best doing somethung another day of my bifg to do upon the line so that want to drive the upon area. in the era of my life.</p>
+            <a href="https://www.facebook.com/AbdulHakimNahid24">download me</a>
+        </div>
+    </section>
+    <section class="experience_area">
+        <h2>Experiences</h2>
+        <div id="full" class="half_width single-experience">
+            <h2>Full stack web develpoer</h2>
+            <h3 class="new_color">2020-present</h3>
+            <p> ami gaan gaitepari but amake keno eto kotha bolo. amader desh keno ajke eto debeloper .in the mean time we are egarly fdiindfbadb ahasf ajhdad kafhah</p>
+            </div>
+        <div id="bull" class="half_width single-experience">
+            <h2> baby web developer</h2>
+            <h3 class="new_color"> 2020-2021</h3>
+            <p> ami gaan gaitepari but amake keno eto kotha bolo. amader desh keno ajke eto debeloper .in the mean time we are egarly fdiindfbadb ahasf ajhdad kafhah</p>
+
+            </div>
+        </section>
+        <footer>
+            <p id="center_text">All rights reserrved by Darikoma</p>
+        </footer>
 </body>
 </html>
